@@ -7,6 +7,9 @@
 .team__list .item + .item {
   margin-left: 30px;
 }
+.team__list .social__item + .social__item{
+  margin-left: 10px;
+}
 .team__content {
   padding-top: 30px;
   padding-bottom: 30px;

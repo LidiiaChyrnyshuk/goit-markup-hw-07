@@ -690,6 +690,10 @@ body {
   margin-left: 30px;
 }
 
+.team__list .social__item + .social__item {
+  margin-left: 10px;
+}
+
 .team__content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -799,7 +803,9 @@ body {
   -webkit-transition-delay: 0;
           transition-delay: 0;
 }
-.clients__icon > .icon:hover > .icon, .clients__icon > .icon:focus > .icon {
+
+.clients__icon:hover > .icon,
+.clients__icon:focus > .icon {
   fill: var(--accent-color);
 }
 

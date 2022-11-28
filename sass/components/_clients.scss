@@ -34,11 +34,11 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 
-  &:hover > .icon,
-  &:focus > .icon {
+}
+ .clients__icon:hover > .icon,
+ .clients__icon:focus > .icon {
     fill: var(--accent-color);
   }
-}
 .clients__icon:hover,
 .clients__icon:focus {
   border-color: var(--accent-color);
